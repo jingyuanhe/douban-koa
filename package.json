@@ -1,0 +1,44 @@
+{
+  "name": "douban-koa",
+  "version": "1.0.0",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel-node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:jingyuanhe001/douban-koa.git"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "yuanhe.jing",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "ejs": "^3.0.1",
+    "es-checker": "^1.4.2",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.2",
+    "nanoid": "^2.1.11",
+    "puppeteer": "^2.1.1",
+    "qiniu": "^7.3.0",
+    "ramda": "^0.27.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/register": "^7.8.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
