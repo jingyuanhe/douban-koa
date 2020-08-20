@@ -18,7 +18,7 @@
   "author": "yuanhe.jing",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^4.0.0",
+    "bcrypt": "^5.0.0",
     "ejs": "^3.0.1",
     "es-checker": "^1.4.2",
     "koa": "^2.11.0",
